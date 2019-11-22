@@ -88,15 +88,15 @@ state 12 : 48621573
 ### Hilbert 曲線による再帰的な空間充填
 order と state の関係は下表です．
 
-<img src="{{ site.baseurl }}/images/2019-11-22-figure/table2.png" style="width: 650px;"/>
+<img src="{{ site.baseurl }}/images/2019-11-22-figure/table2.PNG" style="width: 650px;"/>
 
 
 ### 3次元 Hilbert 曲線の例
 
-<img src="{{ site.baseurl }}/images/2019-11-22-figure/fig7.svg" style="width: 400px;"/>
+<img src="{{ site.baseurl }}/images/2019-11-22-figure/Fig7.svg" style="width: 400px;"/>
 
 ## 参考文献
-本稿を作成するために，以下を参考にしました．
+本稿を作成するために，以下を参考にしました．  
 Ref. １ : [フリー百科事典『ウィキペディア（Wikipedia）』](https://ja.wikipedia.org/wiki/%E3%83%92%E3%83%AB%E3%83%99%E3%83%AB%E3%83%88%E6%9B%B2%E7%B7%9A)  
 Ref. 2 : Bader, M., “Space-Filling Curves An Introduction with Applications in Scientific Computing,” Springer  
 doi : 10.1007/978-3-642-31046-1
