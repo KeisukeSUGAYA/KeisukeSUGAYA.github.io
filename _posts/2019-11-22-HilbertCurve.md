@@ -26,7 +26,7 @@ Hilbert 曲線は，空間充填曲線のほとつです．四分木・八分木
 4 : 右上  
 に位置するノードです．（この子ノードを1から4まで順に結ぶと，Z-orderになります．）．ここで，子セルにつけられる番号を，order と定義します．
 
-<img src="/images/2019-11-22-figure/fig1.png" width=250>
+<img src=https://github.com/KeisukeSUGAYA/KeisukeSUGAYA.github.io/blob/master/images/2019-11-22-figure/fig1.png width=250>
 
 ### Hilbert 曲線の状態
 二次元の Hilbert 曲線は，Fig. 2の4つの状態（state）から構成されます．例えばstate 1のHilbert曲線は，左下→左上→右上→右下の位置を順に通ります．これをZ-order 曲線で配置された子ノードの番号に対応させると，state 1のHilbert 曲線は  
@@ -37,15 +37,15 @@ state 3 : 4312
 state 4 : 4213  
 と表現できます．
 
-<img src="/images/2019-11-22-figure/fig2.png" width=250>
+<img src=https://github.com/KeisukeSUGAYA/KeisukeSUGAYA.github.io/blob/master/images/2019-11-22-figure/fig2.png width=250>
 
 
 ### Hilbert 曲線による再帰的な空間充填
 子ノードの orderとHilbert 曲線のstate が決定すると，子ノードの子ノード（孫）に対するHilbert 曲線の state が決まります．例として，下図のようなstate 1 のHilbert 曲線を考えます．state 1のHilbert 曲線なので，子ノードは1342（左下→左上→右上→右下）の順に並にます．この4つの子ノードを分割し，16つの孫セルを生成します．すると，order 1の子セルを分割し得られる孫ノードは，state 2の順に並びます．order 2の子セル（右下）を分割し得られる孫セルは，state 3，order 3（左上）の子セルを分割し得られる孫セルは，state 2，order 4（右上）の子ノードを分割し得られる孫セルは，state 2になります．  
 他のstate の場合も，子ノードのorderと，子ノードが従うHilbert曲線のstate が決定すると，孫ノードに対するHilbert曲線のstateが定まります．子ノードのorderと子ノードに対するstateから決定される孫セルのHilbert曲線のstateを，下表に示します．  
 
-<img src="/images/2019-11-22-figure/fig3.png" width=250>  
-<img src="/images/2019-11-22-figure/table1.png" width=550>
+<img src=https://github.com/KeisukeSUGAYA/KeisukeSUGAYA.github.io/blob/master/images/2019-11-22-figure/fig3.png width=250>  
+<img src=https://github.com/KeisukeSUGAYA/KeisukeSUGAYA.github.io/blob/master/images/2019-11-22-figure/table1.png width=550>
 
 
 ### 2次元 Hilbert 曲線の例
@@ -64,7 +64,7 @@ state 4 : 4213
 8 : 右　奥　　上  
 とします．
 
-<img src="/images/2019-11-22-figure/fig5.png" width=250>  
+<img src=https://github.com/KeisukeSUGAYA/KeisukeSUGAYA.github.io/blob/master/images/2019-11-22-figure/fig5.png width=250>  
 
 ### Hilbert 曲線の状態
 三次元の Hilbert 曲線は，12つのstateから構成されます．Z-order 曲線で配置された子ノードの番号に対応させると，
@@ -82,18 +82,18 @@ state 11 : 62487315
 state 12 : 48621573  
 と表現できます．  
 
-<img src="/images/2019-11-22-figure/fig6.png" width=500>  
+<img src=https://github.com/KeisukeSUGAYA/KeisukeSUGAYA.github.io/blob/master/images/2019-11-22-figure/fig6.png width=500>  
 
 
 ### Hilbert 曲線による再帰的な空間充填
 order と state の関係は下表です．
 
-<img src="/images/2019-11-22-figure/table2.png" width=550>
+<img src=https://github.com/KeisukeSUGAYA/KeisukeSUGAYA.github.io/blob/master/images/2019-11-22-figure/table2.png width=550>
 
 
 ### 3次元 Hilbert 曲線の例
 
-<img src="/images/2019-11-22-figure/fig7.svg" width=550>
+<img src=https://github.com/KeisukeSUGAYA/KeisukeSUGAYA.github.io/blob/master/images/2019-11-22-figure/fig7.svg width=550>
 
 ## 参考文献
 本稿を作成するために，以下を参考にしました．
