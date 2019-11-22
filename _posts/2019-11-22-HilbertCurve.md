@@ -26,7 +26,7 @@ Hilbert 曲線は，空間充填曲線のほとつです．四分木・八分木
 4 : 右上  
 に位置するノードです．（この子ノードを1から4まで順に結ぶと，Z-orderになります．）．ここで，子セルにつけられる番号を，order と定義します．
 
-<img src="{{ site.baseurl }}/images/2019-11-22-figure/fig1.png" style="width=250;"/>
+<img src="{{ site.baseurl }}/images/2019-11-22-figure/fig1.png" width=250/>
 
 ### Hilbert 曲線の状態
 二次元の Hilbert 曲線は，Fig. 2の4つの状態（state）から構成されます．例えばstate 1のHilbert曲線は，左下→左上→右上→右下の位置を順に通ります．これをZ-order 曲線で配置された子ノードの番号に対応させると，state 1のHilbert 曲線は  
